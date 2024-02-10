@@ -1,0 +1,48 @@
+body {
+    background-image: url("form2.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  h1.ss{
+    color: rgb(1, 12, 24);
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    /* font-style: italic; */
+  }
+  input[type=text], select {
+    
+    width: 50%;
+    /* text-color: #ffffff; */
+    padding: 12px 20px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid #080000;
+    border-radius: 4px;
+    
+  }
+  
+  input[type=submit] {
+    width: 50%;
+   
+    color: rgb(15, 1, 1);
+    padding: 14px 20px;
+    margin: 4px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit] {
+    background-color: #117dc1;
+    color:black;
+    border-color: aliceblue;
+  }
+  
+  div {
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 25px;
+  }

@@ -1,0 +1,53 @@
+<!DOCTYPE >
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Shopping Mart</title>
+        <link rel="stylesheet" href="order.css">
+    </head>
+    <body>
+        <h1 class="ss">TO ORDER NOW FILL THE FOLLOWING CREDINTIALS</h1>
+        <hr>
+        <div>
+            <form action="/action_page.php">
+              <label for="fname">Enter Your Name</label><br>
+              <input type="text" id="name" name="name" placeholder="Your name..">
+          <br>
+              <label for="lname">Enter Your Age</label><br>
+              <input type="text" id="age" name="age" placeholder="Your age..">
+             <br>
+              <label for="country">Enter your Gender</label><br>
+              <select id="country" name="country">
+                <option value="australia">Male</option>
+                <option value="canada">Female</option>
+                
+              </select>
+              <br>
+              <label for="lname">Enter Your Address</label><br>
+              <input type="text" id="add" name="address" placeholder="Your address..">
+              <br>
+              <label for="lname">Enter Your Phone Number</label><br>
+              <input type="text" id="phno" name="phno" placeholder="Your phone number..">
+              <br>
+              <p>Mode of Payment</p>
+              <input type="radio" id="html" name="fav_language" value="HTML">
+              <label for="op">Online Payment</label><br>
+              <input type="radio" id="css" name="fav_language" value="CSS">
+              <label for="cod">Cash On Delivery</label><br>
+               
+              
+            
+              <br><br>
+              <input onclick="myFunction()" type="submit" value="Submit" >
+            </form>
+          </div>
+          <script>
+            function myFunction() {
+              alert("Your order is successfully placed..");
+            }
+            </script>
+<hr>
+    </body>
+ </html>

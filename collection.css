@@ -1,0 +1,51 @@
+body {
+    background-image: url("backimg.jpg");
+    background-repeat: no-repeat;
+    
+    background-attachment: fixed;
+  }
+
+  h1.qq{
+    color:black;
+    font-family: cursive;
+    text-align: center;
+    text-decoration: solid;
+  }
+  h2.ww{
+    color:black;
+    font-family: cursive;
+    text-align: center;
+    text-decoration: solid;
+
+  }
+  div.gallery {
+    margin: 30px;
+    border: 10px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 10px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: 200px;
+    
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  .button {
+    background-color:#b109ae; /* Green */
+    border: 10px;
+    color: white;
+    padding: 14px 51px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
